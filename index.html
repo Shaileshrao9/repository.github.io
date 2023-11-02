@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<style>
+  body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  main {
+    padding: 2rem;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  .photo {
+    flex: 1;
+    padding: 0 2rem;
+  }
+  .photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .bio {
+    flex: 2;
+    background-color: rgb(150, 206, 153);
+    padding: 0 2rem;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+  }
+  @media screen and (max-width: 768px) {
+    .profile {
+      flex-direction: column;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>RAVI</h1>
+  </header>
+  <main>
+    <section class="profile">
+      <div class="photo">
+        <img src="dummy.png" alt="Photo">
+      </div>
+      <div class="bio">
+        <h2>About Me</h2>
+        <p>Name  : Ravi</p>
+        <p>Age : 19</p>
+        <p>Skills:Codding,Web development</p>
+        <p>Phone :8296811491</p> 
+        <p>Email:Ravi@gmail.com</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
